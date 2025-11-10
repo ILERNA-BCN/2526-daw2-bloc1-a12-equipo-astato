@@ -1,7 +1,7 @@
 <?php session_start();
 
-$username = $_SESSION['username'] ?? null;
-$password = $_SESSION['password'] ?? null;
+$username = isset($_POST['username']) ? $_POST['username'] : '';
+$password = isset($_POST['password']) ? $_POST['password'] : '';
 $messageLogin = [
   'errorMessage' => "",
   'successMessage' => ""
@@ -43,9 +43,9 @@ while (!feof($myFile)) {
     header('Location: ../login.php');
     exit();
   } else {
-    $messageLogin['successMessage'] = "Login Correcto. ¡Bienvenido " . $user[2] . "!";
+    $messageLogin['successMessage'] = "Login Correcto. ¡Bienvenido " . $user[0] . "!";
     $_SESSION['messageLogin'] = $messageLogin;
-    header('Location: ../index.php');
+    header('Location: ../login.php');
     exit();
   }
 }
