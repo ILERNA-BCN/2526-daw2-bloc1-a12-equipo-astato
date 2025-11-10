@@ -43,9 +43,11 @@ while (!feof($myFile)) {
     header('Location: ../login.php');
     exit();
   } else {
+    // Guardar usuario en sesión
+    $_SESSION['username'] = $user[0];
     $messageLogin['successMessage'] = "Login Correcto. ¡Bienvenido " . $user[0] . "!";
     $_SESSION['messageLogin'] = $messageLogin;
-    header('Location: ../login.php');
+    header('Location: ../index.php');
     exit();
   }
 }
