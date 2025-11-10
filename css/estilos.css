@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+
+:root {
+  --font-family-primary: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
 .login-message-success::before {
   content: "✅ ";
 }
