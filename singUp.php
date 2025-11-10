@@ -15,6 +15,10 @@
   <section class="vh-100">
     <div class="container-fluid">
       <div class="row">
+        <div class="col-sm-6 px-0 d-none d-sm-block">
+          <img src="./assets/images/login.jpg"
+            alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+        </div>
         <div class="col-sm-6 text-black justify-content-center d-flex flex-column align-items-center">
 
           <div class="px-5 ms-xl-4">
@@ -30,9 +34,9 @@
               <div class="login-message alert alert-danger mb-3" role="alert"><?php echo $_SESSION["messageLogin"]["errorMessage"]; ?></div>
             <?php endif; ?>
             <?php unset($_SESSION["messageLogin"]); ?>
-            <form action="./includes/LoginService.php" method="post" style="width: 23rem;">
+            <form action="./includes/SingUpService.php" method="post" style="width: 23rem;">
 
-              <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
+              <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Registro</h3>
 
               <div class="form-outline mb-4">
                 <input type="text" id="form2Example18" name="username" class="form-control form-control-lg" />
@@ -45,20 +49,17 @@
               </div>
 
               <div class="pt-1 mb-4">
-                <button class="btn btn-info btn-lg btn-block" type="submit">Login</button>
+                <button class="btn btn-info btn-lg btn-block" type="submit">Registrarse</button>
               </div>
 
-              <p>¿No tienes una cuenta? <a href="./singUp.php" class="link-info">Regístrate aquí</a></p>
+              <p>¿Ya tienes una cuenta? <a href="./login.php" class="link-info">Inicia sesión</a></p>
 
             </form>
 
           </div>
 
         </div>
-        <div class="col-sm-6 px-0 d-none d-sm-block">
-          <img src="./assets/images/login.jpg"
-            alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
-        </div>
+
       </div>
     </div>
   </section>
