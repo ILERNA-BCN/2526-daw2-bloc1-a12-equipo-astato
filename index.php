@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('./includes/datos.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -19,7 +20,7 @@ session_start();
 
 
 
-  <header class="bg-dark py-3 mb-4">
+  <header id="gallery" class="bg-dark py-3 mb-4">
     <div class="container d-flex justify-content-center">
       <h1 class="text-white">Galería</h1>
     </div>
@@ -74,11 +75,10 @@ session_start();
     </div>
   </div>
 
+  <?php
+  include 'views/footer.php';
+  ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
-
-<?php
-include 'views/footer.php';
-?>

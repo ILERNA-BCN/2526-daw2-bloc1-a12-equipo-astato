@@ -13,7 +13,7 @@
         </h1>
         <p class="hero-subtitle">Come & be creative</p>
 
-        <a href="#explorar" class="btn btn-hero">
+        <a href="#gallery" class="btn btn-hero">
           Ver Galeria
         </a>
       </div>
