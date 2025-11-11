@@ -1,3 +1,6 @@
-1|Mona Lisa|Retrato icónico del Renacimiento|Leonardo da Vinci|https://images.unsplash.com/photo-1578321346252-e67e651e1c56?w=500|2025-11-10 10:30:00
-2|La Noche Estrellada|Cielo nocturno lleno de movimiento y energía|Vincent van Gogh|https://images.unsplash.com/photo-1561214115-6d2f1b0609fa?w=500|2025-11-10 10:45:00
-3|Grito|Expresión de angustia existencial|Edvard Munch|https://images.unsplash.com/photo-1561214115-6d2f1b0609fa?w=500|2025-11-10 11:00:00
+Noche;2022;Juan;img/img1.jpg   
+Dia;2025;Juan;img/img2.jpg
+Flore;1909;Maria;img/img3.jpg
+Sombra;2002;Pepe;img/img4.jpg
+Frutolan;2019;Pepe;img/img5.jpg
+Mural;2024;Maria;img/img6.jpg
