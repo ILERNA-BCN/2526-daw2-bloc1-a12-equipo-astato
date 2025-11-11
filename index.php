@@ -1,9 +1,6 @@
 <?php
-include 'datos.php';
-include 'views/header.php';
-include 'views/hero.php';
+session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,6 +14,8 @@ include 'views/hero.php';
 
 
 <body>
+  <?php include 'views/header.php'; ?>
+  <?php include 'views/hero.php'; ?>
 
 
 
