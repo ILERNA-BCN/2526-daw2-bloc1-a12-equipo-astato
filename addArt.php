@@ -17,18 +17,15 @@
   <?php include_once 'views/header.php' ?>
 
   <section class="add-art">
-    <form action="" method="post">
+    <form action="./includes/AddArt.php" method="post" enctype="multipart/form-data">
       <label for="titulo-obra">Titulo</label>
       <input id=titulo-obra name="titleArt" type="text">
 
-      <label for="age-art">Año</label>
-      <input id=age-art name="ageArt" type="number">
-
-      <label for="author-art">Autor</label>
-      <input id="author-art" name="authorArt" type="text">
+      <label for="year-art">Año</label>
+      <input id=year-art name="yearArt" type="number">
 
       <label for="art">Imagen de la obra de arte</label>
-      <input enctype="multipart/form-data" type="file">
+      <input class="form-control" type="file" name="imgArt" id="art">
 
       <button>Añadir</button>
 
