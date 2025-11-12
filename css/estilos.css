@@ -361,3 +361,15 @@ body {
   border-radius: 12px;
   text-align: center;
 }
+
+@media (max-width: 987px) {
+  .card-flip-back {
+    font-size: 40px;
+
+  }
+.card-flip-back h5 {
+    font-size: 60px;
+
+  }
+ 
+}
