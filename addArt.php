@@ -29,13 +29,13 @@
 
 
         <label for="titulo-obra">Titulo</label>
-        <input class="form-control" id=titulo-obra name="titleArt" type="text">
+        <input class="form-control" id=titulo-obra name="titleArt" type="text" required>
 
         <label for="year-art">Año</label>
-        <input class="form-control" id=year-art name="yearArt" type="number">
+        <input class="form-control" id=year-art name="yearArt" type="number" required>
 
         <label for="art">Imagen de la obra de arte</label>
-        <input class="form-control" type="file" name="imgArt" id="art">
+        <input class="form-control" type="file" name="imgArt" id="art" required>
 
       </div>
       <button class="btn-add-art">Añadir</button>
