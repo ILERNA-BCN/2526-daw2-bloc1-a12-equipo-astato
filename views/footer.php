@@ -1,4 +1,4 @@
-<footer class="py-4 mt-5" style="background-color: #f35900ff; color: #333;">
+<footer class="py-4 mt-5" style="background-color: #ee7606; color: #333;">
     <div class="container text-center">
         <p class="mb-2">&copy; <?php echo date("Y"); ?> Galería</p>
         <div>
