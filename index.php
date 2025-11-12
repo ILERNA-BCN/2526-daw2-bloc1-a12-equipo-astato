@@ -11,6 +11,8 @@ include('./includes/datos.php');
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
+
 </head>
 
 
@@ -79,6 +81,8 @@ include('./includes/datos.php');
   include 'views/footer.php';
   ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/scrollreveal.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

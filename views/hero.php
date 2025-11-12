@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row align-items-center">
 
-      <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+      <div class="hero-info col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
         <h1 class="hero-title">
           <span class="creativity">Creativity</span>
           <span class="never-ends">never ends</span>
