@@ -21,7 +21,7 @@
       <div class="header-user-section">
         <?php if (isset($_SESSION['username'])): ?>
           <p class="header-user-name">Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></p>
-          <button class="btn-add-art" onclick="window.location.href='./agregar_obra.php'">
+          <button class="btn-add-art" onclick="window.location.href='./addArt.php'">
             + Add Art
           </button>
           <button class="btn-logout" onclick="window.location.href='includes/Logout.php'">
