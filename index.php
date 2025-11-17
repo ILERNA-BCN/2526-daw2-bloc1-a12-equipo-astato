@@ -51,7 +51,7 @@ include('./includes/datos.php');
                                     alt="' . htmlspecialchars($titulo) . '"
                                 />
                             </div>
-                            <div class="card-flip-back rounded">
+                            <div class="card-flip-back rounded" style="background-color: ' . ($datos[4] ?? '#ffffff') . ';">
                                 <div>
                                     <h5 class="card-title text-center mb-2">' . htmlspecialchars($titulo) . '</h5>
                                     <p class="card-text text-center mb-0">

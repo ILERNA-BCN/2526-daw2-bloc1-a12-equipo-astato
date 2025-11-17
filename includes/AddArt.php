@@ -5,6 +5,7 @@ $target_dir = __DIR__ . "/../img/";
 
 $titleArt = isset($_POST['titleArt']) ? $_POST['titleArt'] : '';
 $yearArt = isset($_POST['yearArt']) ? $_POST['yearArt'] : '';
+$colorArt = isset($_POST['colores']) ? $_POST['colores'] : '';
 $authorArt = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 
 if (isset($_FILES["imgArt"])) {
@@ -17,7 +18,7 @@ if (isset($_FILES["imgArt"])) {
   // Mover el archivo subido de la ubicación temporal a la ubicación final
   if (move_uploaded_file($_FILES["imgArt"]["tmp_name"], $target_file)) {
 
-    $newArt = $titleArt . ";" . $yearArt . ";" . $authorArt . ";" . "img/" . $new_file_name . "\n";
+    $newArt = $titleArt . ";" . $yearArt . ";" . $authorArt . ";" . "img/" . $new_file_name . ";" . $colorArt . "\n";
 
     $galleryFile = fopen(__DIR__ . '/../data/galeria.txt', "a");
     if ($galleryFile) {

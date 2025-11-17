@@ -1,6 +1,8 @@
-Noche;2022;Juan;img/img1.jpg   
-Dia;2025;Juan;img/img2.jpg
-Flore;1909;Maria;img/img3.jpg
-Sombra;2002;Pepe;img/img4.jpg
-Frutolan;2019;Pepe;img/img5.jpg
-Mural;2024;Maria;img/img6.jpg
+Noche;2022;Juan;img/img1.jpg;#cc00ffff   
+Dia;2025;Juan;img/img2.jpg;#ffae00ff
+Flore;1909;Maria;img/img3.jpg;#008000ff
+Sombra;2002;Pepe;img/img4.jpg;#cc00ffff
+Frutolan;2019;Pepe;img/img5.jpg;#008000ff
+Mural;2024;Maria;img/img6.jpg;#ffae00ff
+Granada;2025;iker;img/obra_691b329e8dceb8.43308635.png;#f30a0aff
+sebas;2025;iker;img/obra_691b3d4948e077.53740565.png;#cc00ffff
