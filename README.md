@@ -32,17 +32,17 @@ Este proyecto combina tecnologías *front-end* y *back-end* para ofrecer una exp
 
 El proyecto sigue una estructura limpia y organizada:
 
-├── assets/images/ # Imágenes de diseño (logos, iconos). 
-├── css/ # Hojas de estilo del proyecto. 
-├── data/ # Archivos para la persistencia de datos (ej. galeria.txt). 
-├── img/ # Imágenes de las obras de arte. 
-├── includes/ # Fragmentos de código PHP reutilizables. 
-├── js/ # Archivos JavaScript (incluyendo ScrollReveal). 
-├── views/ # Plantillas o vistas modulares. 
-├── addArt.php # Formulario para añadir nuevas obras. 
-├── index.php # Página principal de la galería. 
-├── login.php # Módulo de inicio de sesión. 
-└── singUp.php # Módulo de registro de nuevos usuarios.
+├── assets/images/ # Imágenes de diseño (logos, iconos).  |
+├── css/ # Hojas de estilo del proyecto. |
+├── data/ # Archivos para la persistencia de datos (ej. galeria.txt). |
+├── img/ # Imágenes de las obras de arte. |
+├── includes/ # Fragmentos de código PHP reutilizables. |
+├── js/ # Archivos JavaScript (incluyendo ScrollReveal). |
+├── views/ # Plantillas o vistas modulares. |
+├── addArt.php # Formulario para añadir nuevas obras. |
+├── index.php # Página principal de la galería. |
+├── login.php # Módulo de inicio de sesión. |
+└── singUp.php # Módulo de registro de nuevos usuarios.|
 
 
 ## 👨‍💻 Equipo de Desarrollo
