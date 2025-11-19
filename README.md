@@ -23,8 +23,8 @@ Este proyecto combina tecnologías *front-end* y *back-end* para ofrecer una exp
 | Categoría | Tecnología | Uso Específico |
 | :--- | :--- | :--- |
 | **Backend** | **PHP** | Lógica del servidor, manejo de sesiones, gestión de formularios (`login.php`, `addArt.php`). |
-| **Estructura** | **HTML5** | Estructura semántica de todas las vistas del proyecto (`index.php`, `views/*`). |
-| **Estilismo** | **CSS3** | Diseño *responsive* de la galería y estilización de componentes. |
+| **Estructura** | **HTML** | Estructura semántica de todas las vistas del proyecto (`index.php`, `views/*`). |
+| **Estilismo** | **CSS** | Diseño *responsive* de la galería y estilización de componentes. |
 | **Interactividad** | **JavaScript (ES6+)** | Lógica *front-end* avanzada y manejo de eventos. |
 | **Librerías** | **ScrollReveal.js** | Implementación de animaciones al desplazar (*reveal animations*). |
 
