@@ -61,3 +61,7 @@ Este proyecto fue desarrollado por el **Equipo Astato** para ILERNA BCN.
 | :--- | :--- |
 | Desarrollador | [Fabian lugo] |
 | Desarrollador | [Aaron Evangelista] |
+
+## QR del proyecto 
+
+![QR](assets/images/qr.png)
