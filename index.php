@@ -6,29 +6,30 @@ include('./includes/datos.php');
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Galería</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <title>Galería</title>
+    <link rel="icon" type="image/png" href="assets/images/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 
 <body>
-  <?php include 'views/header.php'; ?>
-  <?php include 'views/hero.php'; ?>
+    <?php include 'views/header.php'; ?>
+    <?php include 'views/hero.php'; ?>
 
 
 
-  <header id="gallery" class="bg-dark py-3 mb-4">
-    <div class="container d-flex justify-content-center">
-      <h1 class="text-white">Galería</h1>
-    </div>
-  </header>
+    <header id="gallery" class="bg-dark py-3 mb-4">
+        <div class="container d-flex justify-content-center">
+            <h1 class="text-white">Galería</h1>
+        </div>
+    </header>
 
-  <div class="container">
-    <div class="row">
-      <?php
+    <div class="container">
+        <div class="row">
+            <?php
       $columnas = [[], [], []];
       $col_index = 0;
       $num_columnas = 3;
@@ -72,13 +73,13 @@ include('./includes/datos.php');
         echo '</div>';
       }
       ?>
+        </div>
     </div>
-  </div>
 
-  <?php
+    <?php
   include 'views/footer.php';
   ?>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
