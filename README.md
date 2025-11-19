@@ -47,11 +47,17 @@ El proyecto sigue una estructura limpia y organizada:
 
 
 
+
+##  🌟 Vista previa de la pagina
+
+![Vista previa de la página](assets/images/pagina.png)
+
+
 ## 👨‍💻 Equipo de Desarrollo
 
 Este proyecto fue desarrollado por el **Equipo Astato** para ILERNA BCN.
 
-| Rol | Miembro del Equipo |
+| Rol | Miembros del Equipo |
 | :--- | :--- |
 | Desarrollador | [Fabian lugo] |
 | Desarrollador | [Aaron Evangelista] |
